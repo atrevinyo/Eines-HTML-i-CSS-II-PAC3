@@ -1,0 +1,45 @@
+.chess_header {
+  color: $chess-blanc;
+}
+
+ .nav {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  align-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  height: 90px;
+
+  @include phone {
+    justify-content: center;
+  }
+}
+
+
+.nav_list {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  list-style: none;
+}
+
+.nav_link {
+  color: $chess-blanc;
+  text-decoration: none;
+}
+
+
+.nav_menu {
+  display: none;
+}
+
+.nav_icon {
+  max-width: 25%;
+  margin-right: 4px;
+}
+
+.logo {
+  color: $chess-blanc;
+}

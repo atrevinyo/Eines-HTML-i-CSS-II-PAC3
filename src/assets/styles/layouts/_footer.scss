@@ -1,0 +1,17 @@
+
+
+.chess-footer {
+    // grid-area: footer;
+    padding: 40px 10px;
+    color: $chess-blanc;
+    font-size: 0.8rem;
+    text-align: center;
+    // background-color: $chess-bg-ft;
+  }
+
+  .logofooter {
+    //En dispositius petits ocultem el Logo del footer
+    @include phone {
+      display: none;
+    }
+  }

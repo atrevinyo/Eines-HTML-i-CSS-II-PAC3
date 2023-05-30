@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import variables*/
+// @import "variables";
+// @import "mixins";
+// @import "globals";
+
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+// @import "bootstrap/scss/bootstrap";
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+
+/**
+ * Do NOT include anything else in this file!
+ */
+
+ @tailwind utilities;
+
+ @layer components {
+    .chess-card {
+      @apply max-w-sm bg-white rounded-lg;
+    }
+    .img-card {
+        @apply rounded-t-lg mx-auto;
+    }
+    .content-card {
+        @apply p-2 text-center;
+    }
+    .title-card {
+        @apply mb-2 text-2xl font-bold text-gray-900;
+    }
+
+    .text-card {
+        @apply mb-2 font-normal text-gray-700 dark:text-gray-400;
+    }
+
+
+
+
+
+
+  }
