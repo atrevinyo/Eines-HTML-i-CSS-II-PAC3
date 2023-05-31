@@ -5,17 +5,16 @@ module.exports = {
     extend: {
       colors: {
       'chess-footer': '#433a44',
-      'green-butoon': '#bada55'
-
+      'green-button': '#bada55',
+      },
+      backgroundImage: (theme) => ({
+        'chess': "linear-gradient(to right, #434343, black)"
+      }),
     },
-    backgroundImage: {
-      'chess': "bg-gradient-to-r from-neutral-700 to-neutral-900"
-    }
-},
-    // fontFamily: {
-    //   sans: ['Segoe UI', 'Roboto', 'Helvetica Neue', 'sans-serif'],
-    //   serif: ['Georgia', 'Times New Roman', 'serif'],
-    // },
+    fontFamily: {
+      sans: ['Segoe UI', 'Roboto', 'Helvetica Neue', 'sans-serif'],
+      serif: ['Georgia', 'Times New Roman', 'serif'],
+    },
   },
   plugins: [],
 }
